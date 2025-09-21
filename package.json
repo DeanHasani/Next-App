@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint": "biome check",
+    "format": "biome format --write"
   },
   "dependencies": {
     "react": "19.1.0",
